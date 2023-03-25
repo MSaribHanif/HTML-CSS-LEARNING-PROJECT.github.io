@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device", initial-scale="1.0">
+        <title>Absolution Lore</title>
+        <link rel="stylesheet" href="STYLE.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <section class="header">
+            <nav><a href="index.html"><img src="Home/LOGO/Solair_1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fab fa-times" onclick="Hide()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fab fa-bars" onclick="Show()"></i> 
+            </nav>  
+        <div class="textbox">
+            <h1>THE LANDS BETWEEN</h1>
+            <p>"This first volume of Future Press’ Elden Ring Books of Knowledge contains a complete record of The Lands Between. Overworld, dungeons and underworld</p>
+            <a href=""class="Praise-button">LORE BOOK</a>    
+        </div>          
+        </section>
+        <section class="Weapons" id="W">
+            <h1>STORY</h1>
+            <p>“Before we begin, allow me to paint you the full picture.” - Witch-Hunter Jerren</p>
+            <div class="row">
+                <div class="enem-col">
+                    <img src="Home/Book/suspence.png">
+                    <div class="layer">
+                    <h3>SUSPENSE</h3>
+                    </div>
+                </div>
+                <div class="enem-col">
+                    <img src="Home/Book/horror.png">
+                    <div class="layer">
+                    <h3>HORROR</h3>
+                    </div>
+                </div>
+                <div class="enem-col">
+                    <img src="Home/Book/action.png">
+                    <div class="layer">
+                    <h3>ACTION</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Tarnished who have been abandoned by grace</p>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </section>
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function Show(){
+                navlinks.style.right = "0";
+            }
+
+            function Hide(){
+                navlinks.style.right = "-200";
+            }
+        </script>
+    </body>
+</html>

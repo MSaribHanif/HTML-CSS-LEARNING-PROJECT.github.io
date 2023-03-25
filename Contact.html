@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device", initial-scale="1.0">
+        <title>CONTACT Absolution</title>
+        <link rel="stylesheet" href="STYLE.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <section class="header">
+            <nav><a href="index.html"><img src="Home/LOGO/Solair_1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fab fa-times" onclick="Hide()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fab fa-bars" onclick="Show()"></i> 
+            </nav>  
+        <div class="textbox">
+            <h1>Contact The Abyss</h1>
+            <p>"You really are fond of chatting with me, aren't you?<br> If I didn't know better, I'd think you had feelings for me! Oh, no, dear me. Pretend you didn't hear that! Hah hah hah!"
+                — Solaire of Astora</p>
+            <a href="BOOK.html"class="Praise-button">LORE BOOK</a>    
+        </div>          
+        </section>
+
+            <div class="Comments">
+                <h3>Plunge your into The Abyss</h3>
+                <form class="form" action="Log.php" method="post">
+                    <input type="Text" name="name" placeholder="Enter Your Name Unkindled Tarnished">
+                    <input type="Text" email="email" placeholder="Provide the Mirical Of 'EMAIL'">
+                    <textarea rows = "6" comment = "com" placeholder="Enter Your Name Unkindled Tarnished"></textarea>
+                    <button type="submit" class="Praise-button">Touch The Abyss</button>   
+                </form>
+            </div>
+
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Tarnished who have been abandoned by grace</p>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </section>
+
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function Show(){
+                navlinks.style.right = "0";
+            }
+
+            function Hide(){
+                navlinks.style.right = "-200";
+            }
+        </script>
+    </body>
+</html>
